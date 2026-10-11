@@ -1,0 +1,58 @@
+body { 
+  margin: 0;
+}
+
+.spacing {
+  height: 28px;
+}
+
+.social-link {
+  width: 32px; 
+  height: 32px; 
+  margin-right: 6px;
+  opacity: 80%;
+  transition: 100ms ease;
+}
+
+.social-link:hover {
+  scale: 1.1;
+  opacity: 100%;
+}
+
+.dev-profile {
+  margin: auto;
+  width: 640px;
+  display: flex; 
+  background-color: rgb(29, 22, 29);
+  border-radius: 4px;
+}
+
+.title-card {
+  margin: auto;
+  width: 640px;
+  display: flex; 
+  background-color: rgb(10, 7, 10);
+  border-radius: 4px;
+  color: #ffbf6b;
+}
+
+.dev-avatar {
+  margin-top: 16px; 
+  margin-right: 32px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  transition: 500ms ease;
+  border-radius: 4px;
+}
+
+.dev-avatar:hover {
+  filter: invert();
+}
+
+.dev-profile:hover {
+  filter: brightness(1.1);
+}
+
+.title-card:hover {
+  filter: brightness(1.1);
+}
